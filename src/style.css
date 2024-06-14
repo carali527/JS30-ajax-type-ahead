@@ -1,0 +1,29 @@
+:root {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
